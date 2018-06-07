@@ -1,5 +1,9 @@
 import java.util.ArrayList;
-
+/**
+ * @author Javier Viñas Garcia
+ * @version 0.0.1
+ * @since 07/06/2018
+ * */
 public class Assignatura {
     public long id = 0;
     private String nom = "";

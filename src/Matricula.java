@@ -1,6 +1,10 @@
 import java.util.Collection;
 import java.util.Iterator;
-
+/**
+ * @author Javier Viñas Garcia
+ * @version 0.0.1
+ * @since 07/06/2018
+ **/
 public class Matricula {
 
     public static final int CONSTANT_INT = 15;
@@ -17,7 +21,9 @@ public class Matricula {
         this.curs = curs;
         this.assignatures = assignatures;
     }
-
+/**
+ * @return devuelve un float con el coste de la matricula
+ * */
     public float costMatricula() {
 
         float cost = 0;
